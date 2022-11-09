@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-header {
+    background-image: url('https://i.pinimg.com/originals/ce/22/c0/ce22c0c75cefd0a9f8efb50f0e15710e.jpg');
+    height: 110px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#container-header h2 {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+#container-header nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+#container-header nav a:hover {
+    background-color: #a795a5;
+    border-radius: 40px;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: rgb(54, 54, 54);
+    height: 110px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#container-footer {
+    text-align: center;
+}
+
+#entre-contato {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    height: 20px;
+}
+
+#entre-contato:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.copy {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.midias {
+    margin-top: 10px;
+}
+
+.midias a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.midias i:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.footer a {
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 520px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+form h2 {
+    font-family: 'Lexend Exa', sans-serif;
+    margin: 25px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #41306e;
+    cursor: pointer;
+    color: white;
+    border: none;
+    height: 50px;  
+    font-family: 'Lexend Exa', sans-serif; 
+}
+
+form button:hover {
+    background-color: #290e74;
+}
+
+
+
